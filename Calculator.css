@@ -1,0 +1,113 @@
+#kalkulator
+{
+border-radius: 25px;
+width:1020px;
+height:920px;
+margin: 0px auto;
+position:relative;
+background-color:#E4E6F6;
+position:absolute;
+border: solid black;
+border-radius: 25px;
+}
+
+#blockStandard
+{
+position:relative;
+border: solid;
+width:500px;
+height:100px;
+margin:20px;
+padding:0px;
+right:232px;
+left:232px;
+border-radius: 25px;
+
+}
+#resultBox
+{
+position:relative;
+top:5px;
+left:11px;
+right:20px;
+width:964px;
+height:100px;
+padding:0px;
+
+
+
+}
+#number
+{
+position:relative;
+left:0px;
+text-align:right;
+width:964px;
+height:100px;
+padding-right:20px;
+border-radius: 964px;
+font-size: 45px;
+border-style: solid; color: #000000;
+border-width: 5px;
+bottom:10px;
+
+
+}
+
+#numbersCalc
+{
+position:relative;
+border-style: solid;
+width:970px;
+height:627px;
+top:16px;
+left:21px;
+right:20px;
+border-radius: 25px;
+}
+
+.kalkStandard
+{
+text-align:center;
+font-size: 30px;
+font-style:italic;
+font-family:Verdana,Arial;
+}
+
+.numbers
+{
+position:relative;
+width:964px;
+height:605px;
+top:0px;
+left:-1px;
+text-align:center;
+border-color: #835C3B;
+font-size: 30px;
+border-style: solid;
+border-radius: 25px;
+}
+.numerCal
+{
+padding: 0px;
+margin:0px;
+width:165px;
+height: 77px;
+font-size:25px;
+}
+.bottomZero
+{
+padding: 0px;
+margin:0px;
+width:350px;
+height: 77px;
+font-size:25px;
+}
+.equalCal
+{
+padding: 0px;
+margin:0px;
+height: 174px;
+width:165px;
+font-size:25px;
+}
