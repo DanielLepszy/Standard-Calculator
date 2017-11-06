@@ -11,8 +11,7 @@
 	 			result.txt.value=result.txt.value+x;
 	 		}
 
-			else if (document.getElementById("number").value=="+"||
-				 document.getElementById("number").value=="*"||document.getElementById("number").value=="/"){
+			else if 			(document.getElementById("number").value=="+"||document.getElementById("number").value=="*"||document.getElementById("number").value=="/"){
 				l1=0;
 				document.result.txt.value=perseFloat(l1);
 			}
@@ -82,13 +81,14 @@
 	function rootElement(z) {
 	l1=document.getElementById("number").value;
 
-		if (l1<0){
-		alert("NEGATIVE VALUE !");
-	}
-		else{
+		if ( l1>=0 ){
 		result.txt.value=' ';
 		var Sqrte=Math.sqrt(l1);
 		document.result.txt.value= Sqrte;
+
+		}
+		else{
+		alert("NEGATIVE VALUE !");
 		}
 
 	}
