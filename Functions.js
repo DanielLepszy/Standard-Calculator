@@ -79,7 +79,7 @@
 			document.result.txt.value=1/l1;
 		}
 	}
-	function rootElement(z) {
+	function mySqrt(z) {
 	l1=document.getElementById("number").value;
 
 		if ( l1>=0 ){
