@@ -11,9 +11,10 @@
 	 			result.txt.value=result.txt.value+x;
 	 		}
 
-			else if 			(document.getElementById("number").value=="+"||document.getElementById("number").value=="*"||document.getElementById("number").value=="/"){
-				l1=0;
-				document.result.txt.value=perseFloat(l1);
+			else if (document.getElementById("number").value=="+"||
+				 document.getElementById("number").value=="*"||document.getElementById("number").value=="/"){
+			l1=0;
+			document.result.txt.value=perseFloat(l1);
 			}
 
 	  		else {
