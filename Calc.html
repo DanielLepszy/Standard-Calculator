@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
-<html xmins="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 		<meta http-equiv="content-language" content="pl"/>
@@ -11,7 +11,6 @@
 	   <title> JavaScript # Zmienne </title>
 	  <meta name= "description" content="Krajobrazy, Piękno Natury, Parki" />
 	  <meta name="keywords" content="krajobrazy,natura,przyroda,widoki" />
-
 
 
 
@@ -26,9 +25,9 @@
 	<div id="blockStandard">
 	<p class="kalkStandard">STANDARD CALCULATOR</p>
 	</div>
-<form name="result">
+<form name="result" action="none">
 	<div id="resultBox">
-		 <input id="number" type="text" name="txt" placeholder="0" value= "0"/>
+		 <input id="number" type="text" name="txt"  value= "0"/>
 
 	</div>
 
@@ -43,7 +42,7 @@
 				<td class="numerCal" style="border: 2mm ridge #008080"><input type="button"  value="M-" name="btnM" class="numerCal" 					onclick="myFunction(btnM.value)"/></td>
 			</tr>
 			<tr>
-				<td class="numerCal" style="border: 2mm ridge #008080"><input type="button"  value="&#8592" name="btnArrow" class="numerCal" 					onclick="arrowDelete(btnArrow.value)"/></td>
+				<td class="numerCal" style="border: 2mm ridge #008080"><input type="button"  value="&#8592;" name="btnArrow" class="numerCal" 					onclick="arrowDelete(btnArrow.value)"/></td>
 				<td class="numerCal" style="border: 2mm ridge #008080"><input type="button"  value="CE" name="btnCE" class="numerCal" 					onclick="clearCE()"/></td>
 				<td class="numerCal" style="border: 2mm ridge #008080"><input type="button"  value="C" name="btnC" class="numerCal" 					onclick="clearCE()"/></td>
 				<td class="numerCal" style="border: 2mm ridge #008080"><input type="button"  value="+/-" name="btnPlusMinus" class="numerCal" 					onclick="plusMinus(btnPlusMinus.value)"/></td>
@@ -82,8 +81,6 @@
 	</div>
 </form>
 </div>
-
-
 	</body>
 
 </html>
