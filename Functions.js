@@ -94,11 +94,12 @@
 
 	}
 	function dotSymbol(x){
-		l1=document.getElementById("number").value;
-		if (l1==0){
-			result.txt.value=result.txt.value+x;
-		}
-		else{
-			result.txt.value=result.txt.value+x;
-		}
-	}
+	present++
+    	l1=document.getElementById("number").value;
+        if (present==1){
+            result.txt.value=result.txt.value+x;
+        }
+        else if (present > 1){
+            result.txt.value=l1;   
+        }  
+}
