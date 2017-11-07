@@ -1,7 +1,9 @@
 	 function clearCE(){
 	  	result.txt.value='0';
+		present=0;
 	  }
 	  function myFunction(x) {
+		  present=0;
 	  		if (document.getElementById("number").value==0){
 	  			result.txt.value="";
 	  			result.txt.value=result.txt.value+x;
@@ -23,6 +25,7 @@
 	  	}
 
 	  function myOperations(x){
+		present=0;
 	  	l1 = document.getElementById("number").value;
 	  	result.txt.value=' ';
 		simpleOperation=x;
@@ -35,6 +38,7 @@
 
 
 	function myEqual(x){
+	  present=0;
 	  l2 = document.getElementById("number").value;
 	  result.txt.value=' ';
 	  switch (simpleOperation){
@@ -55,12 +59,14 @@
 
 								}
 	function arrowDelete(x) {
+		
 		var delNumber = document.getElementById("number").value;
 		delNumber=parseFloat(delNumber-(delNumber%10))/10;
 		result.txt.value=delNumber;
 	}
 
 	function plusMinus(x){
+	present=0;
 	l1=document.getElementById("number").value;
 		if (l1==0){
 			document.result.txt.value=l1;
@@ -71,6 +77,7 @@
 	}
 
 	function oneBy(x){
+		present=0;
 		l1=document.getElementById("number").value;
 		if (l1==0){
 			alert("DIVISION NOT POSSIBLE");
@@ -80,6 +87,7 @@
 		}
 	}
 	function mySqrt(z) {
+	present=0;
 	l1=document.getElementById("number").value;
 
 		if ( l1>=0 ){
