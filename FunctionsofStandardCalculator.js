@@ -9,15 +9,7 @@ function clearCE() {
 	result.txt.value = '0';
 	present = 0;
 }
-function myZero(keyValue) {
-	z1 = document.getElementById('number').value;
-	if (z1 == "0" || z1 == undefined || z1 == null || z1 == NaN) {
-		result.txt.value = "0";
-	}
-	else
-		result.txt.value = result.txt.value + keyValue;
 
-}
 function diffrentZero(keyValue) {
 
 	if (document.getElementById('number').value == "0") {
