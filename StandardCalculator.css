@@ -4,12 +4,12 @@
 border-radius: 25px;
 width:1020px;
 height:920px;
-margin: 0px auto;
+                   margin: 0px auto;
 position:relative;
 background-color:#E4E6F6;
 position:absolute;
 border: solid black;
-border-radius: 25px;
+                  border-radius: 25px;
 }
 
 #blockStandard
