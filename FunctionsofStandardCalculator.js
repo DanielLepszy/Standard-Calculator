@@ -48,48 +48,37 @@ function operators(operators) {
 		l2 = document.getElementById("number").value;
 		result.txt.value = ' ';
 		present = 0;
-		switch (simpleOperation) {
-			case "+":
-				document.result.txt.value = ((parseFloat(l1) + parseFloat(l2))); break;
-			case "-":
-				document.result.txt.value = ((parseFloat(l1) - parseFloat(l2))); break;
-			case "*":
-				document.result.txt.value = ((parseFloat(l1) * parseFloat(l2))); break;
-			case "/":
-				if (l2 == 0) {
-					alert("DIVISION NOT POSSIBLE"); break;
-				}
-				else {
-					document.result.txt.value = ((parseFloat(l1) / parseFloat(l2))); break;
-				}
-
-		}
+		executeOperation(simpleOperation);
 		l1 = document.getElementById("number").value;
 
 	}
 	else if (l1 != undefined && l2 != undefined) {
 		result.txt.value = keyValue;
 		result.txt.value = ' ';
-		switch (simpleOperation) {
-			case "+":
-				document.result.txt.value = ((parseFloat(l1) + parseFloat(l2))); break;
-			case "-":
-				document.result.txt.value = ((parseFloat(l1) - parseFloat(l2))); break;
-			case "*":
-				document.result.txt.value = ((parseFloat(l1) * parseFloat(l2))); break;
-			case "/":
-				if (l2 == 0) {
-					alert("DIVISION NOT POSSIBLE"); break;
-				}
-				else {
-					document.result.txt.value = ((parseFloat(l1) / parseFloat(l2))); break;
-				}
-		}
-		l1 = document.getElementById("number").value; 
+		executeOperation(simpleOperation);
+	}
+	l1 = document.getElementById("number").value;
 
-	} 
 }
 
+function executeOperation(operator) {
+	switch (operator) {
+		case "+":
+			document.result.txt.value = ((parseFloat(l1) + parseFloat(l2))); break;
+		case "-":
+			document.result.txt.value = ((parseFloat(l1) - parseFloat(l2))); break;
+		case "*":
+			document.result.txt.value = ((parseFloat(l1) * parseFloat(l2))); break;
+		case "/":
+			if (l2 == 0) {
+				alert("DIVISION NOT POSSIBLE"); break;
+			}
+			else {
+				document.result.txt.value = ((parseFloat(l1) / parseFloat(l2))); break;
+			}
+
+	}
+}
 function equalSymbol() {
 	present = 0;
 	l2 = document.getElementById("number").value;
@@ -98,21 +87,7 @@ function equalSymbol() {
 	}
 	else {
 		result.txt.value = ' ';
-		switch (simpleOperation) {
-			case "+":
-				document.result.txt.value = ((parseFloat(l1) + parseFloat(l2))); break;
-			case "-":
-				document.result.txt.value = ((parseFloat(l1) - parseFloat(l2))); break;
-			case "*":
-				document.result.txt.value = ((parseFloat(l1) * parseFloat(l2))); break;
-			case "/":
-				if (l2 == 0) {
-					alert("DIVISION NOT POSSIBLE"); break;
-				}
-				else {
-					document.result.txt.value = ((parseFloat(l1) / parseFloat(l2))); break;
-				}
-		}
+		executeOperation(simpleOperation);
 	}
 
 }
