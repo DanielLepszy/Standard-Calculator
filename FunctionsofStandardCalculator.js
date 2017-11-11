@@ -13,18 +13,17 @@ function clearCE() {
 function diffrentZero(keyValue) {
 
 	if (document.getElementById('number').value == "0") {
-		result.txt.value = "";
+		result.txt.value="";
 		result.txt.value = result.txt.value + keyValue;
 	}
 	else if (l1 != undefined && l2 != undefined) {
-		result.txt.value = "";
 		result.txt.value = keyValue;
 		l2 = keyValue;
 	}
-
-
-	else
+	else{
+		l1=keyValue;
 		result.txt.value = result.txt.value + keyValue;
+	}
 }
 
 function operators(operators) {
@@ -34,7 +33,7 @@ function operators(operators) {
 	simpleOperation = operators;
 	if (l1 == undefined && l2 == undefined) {
 		l1 = document.getElementById("number").value;
-		result.txt.value = '0';
+		result.txt.value = ' ';
 	}
 	else if (l1 != undefined && l2 == undefined) {
 		l2 = document.getElementById("number").value;
@@ -47,10 +46,12 @@ function operators(operators) {
 	else if (l1 != undefined && l2 != undefined) {
 		result.txt.value = keyValue;
 		result.txt.value = ' ';
+		
 		executeOperation(simpleOperation);
+		l1 = document.getElementById("number").value;
 	}
-	l1 = document.getElementById("number").value;
-
+	
+	l2 = 0;
 }
 
 function executeOperation(operator) {

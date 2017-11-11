@@ -1,0 +1,249 @@
+[33mcommit e21f8cb84d3e87ee628321953d32b8a814642998[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: DanielLepszy <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Sat Nov 11 21:31:58 2017 +0100
+
+    Delete myZero function
+
+[33mcommit 2452c088e4d4f40f5099261c5097dcab97d18ac7[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: DanielLepszy <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Sat Nov 11 21:27:28 2017 +0100
+
+    Create executeOperation function
+
+[33mcommit b42175daec5de82ff5d0670efa9a11bd8259224c[m
+Author: DanielLepszy <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Sat Nov 11 11:48:17 2017 +0100
+
+    Some fixes, remove unused arguments from methods, code refactoring
+
+[33mcommit 4419c9f1ae83b6ed381d3d0b59a0a13d52793a59[m
+Author: DanielLepszy <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 21:15:02 2017 +0100
+
+    Fix windows Calculator.html
+
+[33mcommit 4412ccbbd8cd08f97d3769cbb83006a30ea774ae[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 16:47:08 2017 +0100
+
+    Update FunctionsofStandardCalculator.js
+
+[33mcommit bed0bda9b1673328deaea3ae8ea2baa04b04fde6[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 16:46:14 2017 +0100
+
+    Update Windows Calculator.html
+
+[33mcommit 43adb6b514a8ed6f7e043748d9ec2e84492a69ee[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 15:00:55 2017 +0100
+
+    Rename Functions of Standard Calculator.js to FunctionsofStandardCalculator.js
+
+[33mcommit 1d5c236cb95a90f8f53a864cfd06576c53a0a172[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 15:00:29 2017 +0100
+
+    Update Windows Calculator.html
+
+[33mcommit 7b17be433c96510d2e84a4512b7a9a1a353d1f6a[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:57:09 2017 +0100
+
+    Update Windows Calculator.html
+
+[33mcommit b24aab18f000d0aece6a605af49639ccfeae528a[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:54:39 2017 +0100
+
+    Create StandardCalculator.css
+
+[33mcommit 34857fc4d7fd03d79ee44c61d55d269a65589a29[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:54:00 2017 +0100
+
+    Create Functions of Standard Calculator.js
+
+[33mcommit e749bed4dab8c87b9963f257ba909f32615efcdc[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:53:25 2017 +0100
+
+    Create Windows Calculator.html
+
+[33mcommit aed7fe43bec60b9c75467401a7256079c635d592[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:51:36 2017 +0100
+
+    Delete Calculator.css
+
+[33mcommit f93a043d5e7ffe41160f7cec7119aa175c8cbcc6[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:51:26 2017 +0100
+
+    Delete Calc.html
+
+[33mcommit e8e6e7fa7dd42d40d266a94e13341e99693e0a11[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:51:18 2017 +0100
+
+    Delete Functions.js
+
+[33mcommit f80b8e4974ca46de1f0bf7a3a8b0be62dd7e9412[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Thu Nov 9 14:37:02 2017 +0100
+
+    Update Functions.js
+
+[33mcommit 25cc163768f32ee65b145dfed648d006497bd557[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Tue Nov 7 18:03:34 2017 +0100
+
+    Update Calculator.css
+
+[33mcommit c63a769fe798a3f620bbc8870202eebe612d2fe9[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Tue Nov 7 17:29:44 2017 +0100
+
+    Update Calc.html
+
+[33mcommit a52b8d08839988795b7ae4ee4ec21e57f995084c[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Tue Nov 7 17:28:27 2017 +0100
+
+    Update Functions.js
+
+[33mcommit 3905f4efb3014b169980e388ad48436d2352f88c[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Tue Nov 7 12:37:57 2017 +0100
+
+    Update Functions.js
+
+[33mcommit 43994ec1deded235ba4c43a4f4e234876ec4a7f3[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Tue Nov 7 12:34:55 2017 +0100
+
+    Update Functions.js
+
+[33mcommit 5d2571c495cb82a80c661771e15d42ebc46ef2ef[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Tue Nov 7 10:16:24 2017 +0100
+
+    Update Calculator.css
+
+[33mcommit ff242dda05955a99d1300004be78a386e3b93039[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 21:00:53 2017 +0100
+
+    Update Functions.js
+
+[33mcommit a69a50677407f58a9ab7e19c4b8032b2446a20a2[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 20:58:44 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 4bd8bbd1bb8bf5cec79bac483b8e86228d1f5312[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 20:04:06 2017 +0100
+
+    Update Calc.html
+
+[33mcommit ede67705d72963c024e323b3139216392e198e54[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 19:59:58 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 5689ddb9534b89af18bdbf89c2c29888041b3d62[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 19:58:45 2017 +0100
+
+    Update Calc.html
+
+[33mcommit cc53161db20e244513d3cf6e077054e1f9f21186[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 19:55:03 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 9f5f1fa478da9a3062f4e587c08a3aadb1bbffae[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 19:51:19 2017 +0100
+
+    Update Calc.html
+
+[33mcommit a7fc581f1ef55b33a5c5979d90627f03976d2638[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 19:47:28 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 81f4948fca7b13758fe4e41be7ce6af513237c0c[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 18:36:06 2017 +0100
+
+    Update Functions.js
+
+[33mcommit e5a02053eb075cf0137efc8b099a7dedd04bbc8e[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 18:35:37 2017 +0100
+
+    Update Functions.js
+
+[33mcommit f52a3e0f02f7954ceb15b367b95c84f71409e50f[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 18:34:30 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 4c3d4772ddde7987d6436434d4ae2a6723fe5b3f[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 18:14:07 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 4f758e822288c843b66a119df1fa3f5aee8293c5[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 18:12:19 2017 +0100
+
+    Update Calc.html
+
+[33mcommit 3171052afa6217d716092ba37344981d315ffb20[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 17:23:37 2017 +0100
+
+    Update Functions.js
+
+[33mcommit ed0529b5562267095e1e6927f41fd69e32e59a04[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 17:12:38 2017 +0100
+
+    Create Functions.js
+    
+    My own functions (JS). There, I have a some problems. The calculator isn't work propely. There is a lack a few functions which should solve my problems:
+    1) The program isn't read the second float value
+    2) The rootElement function doesn't work
+    3) Which functions, I should write in case, when the users click '' . " at the beginning of Calculator work ?
+    My calculator is related with calculator from windows 8
+
+[33mcommit 4447a151fa365339f1f7a43731a6c1bc0d78800a[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 17:02:02 2017 +0100
+
+    Create Calculator.css
+    
+    Basics of CSS code
+
+[33mcommit 2fab7fa78321871bb2b3222aef9c2efffe902c58[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 17:00:58 2017 +0100
+
+    Create Calc.html
+    
+    Basic of html code
+
+[33mcommit 34b13c08406329d97a7b6d7da37427c9177771fb[m
+Author: Daniel <33004218+DanielLepszy@users.noreply.github.com>
+Date:   Mon Nov 6 16:28:01 2017 +0100
+
+    Initial commit
